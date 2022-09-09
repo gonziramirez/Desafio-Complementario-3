@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+#tablaPrecios{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #0091aa;
+    color: white;
+}
+
+#tabla tr td{ 
+    border: 1px solid black;
+    text-align: center;
+}
+
+#cargarP{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    font-weight: bold;
+}
+#cargarP:hover{
+    background-color: #0091aa;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#calcularC{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    font-weight: bold;
+}
+#calcularC:hover{
+    background-color: #0091aa;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#buscar{
+    margin-bottom: 3px;
+}
